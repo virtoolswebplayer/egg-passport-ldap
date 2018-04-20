@@ -1,0 +1,28 @@
+{
+  "name": "egg-passport-ldap",
+  "version": "1.0.0",
+  "description": "ldap passport plugin for eggjs",
+  "eggPlugin": {
+    "name": "passportLdap"
+  },
+  "license": "MIT",
+  "author": "gaoletian <virtoolswebplayer@gmail.com>",
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-passport",
+    "ldap"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0",
+    "passport-ldapauth": "^2.0.0"
+  },
+  "files": [
+    "config",
+    "app.js"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
